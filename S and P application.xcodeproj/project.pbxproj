@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		19330198257D9844009FEFE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19330197257D9844009FEFE7 /* main.cpp */; };
+		193301AD257D9A13009FEFE7 /* student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 193301AC257D9A13009FEFE7 /* student.cpp */; };
+		193301B1257D9A37009FEFE7 /* roster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 193301B0257D9A37009FEFE7 /* roster.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		19330194257D9844009FEFE7 /* S and C application */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "S and C application"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19330194257D9844009FEFE7 /* S and P application */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "S and P application"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19330197257D9844009FEFE7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		193301A7257D9947009FEFE7 /* degree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = degree.h; sourceTree = "<group>"; };
+		193301AA257D99CB009FEFE7 /* roster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = roster.h; sourceTree = "<group>"; };
+		193301AB257D99FD009FEFE7 /* student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = student.h; sourceTree = "<group>"; };
+		193301AC257D9A13009FEFE7 /* student.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = student.cpp; sourceTree = "<group>"; };
+		193301B0257D9A37009FEFE7 /* roster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = roster.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +48,7 @@
 		1933018B257D9844009FEFE7 = {
 			isa = PBXGroup;
 			children = (
-				19330196257D9844009FEFE7 /* S and C application */,
+				19330196257D9844009FEFE7 /* S and P application */,
 				19330195257D9844009FEFE7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +56,30 @@
 		19330195257D9844009FEFE7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				19330194257D9844009FEFE7 /* S and C application */,
+				19330194257D9844009FEFE7 /* S and P application */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		19330196257D9844009FEFE7 /* S and C application */ = {
+		19330196257D9844009FEFE7 /* S and P application */ = {
 			isa = PBXGroup;
 			children = (
 				19330197257D9844009FEFE7 /* main.cpp */,
+				193301A7257D9947009FEFE7 /* degree.h */,
+				193301AA257D99CB009FEFE7 /* roster.h */,
+				193301AB257D99FD009FEFE7 /* student.h */,
+				193301AC257D9A13009FEFE7 /* student.cpp */,
+				193301B0257D9A37009FEFE7 /* roster.cpp */,
 			);
-			path = "S and C application";
+			path = "S and P application";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		19330193257D9844009FEFE7 /* S and C application */ = {
+		19330193257D9844009FEFE7 /* S and P application */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1933019B257D9844009FEFE7 /* Build configuration list for PBXNativeTarget "S and C application" */;
+			buildConfigurationList = 1933019B257D9844009FEFE7 /* Build configuration list for PBXNativeTarget "S and P application" */;
 			buildPhases = (
 				19330190257D9844009FEFE7 /* Sources */,
 				19330191257D9844009FEFE7 /* Frameworks */,
@@ -77,9 +89,9 @@
 			);
 			dependencies = (
 			);
-			name = "S and C application";
+			name = "S and P application";
 			productName = "S and C application";
-			productReference = 19330194257D9844009FEFE7 /* S and C application */;
+			productReference = 19330194257D9844009FEFE7 /* S and P application */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1933018F257D9844009FEFE7 /* Build configuration list for PBXProject "S and C application" */;
+			buildConfigurationList = 1933018F257D9844009FEFE7 /* Build configuration list for PBXProject "S and P application" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				19330193257D9844009FEFE7 /* S and C application */,
+				19330193257D9844009FEFE7 /* S and P application */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +131,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				19330198257D9844009FEFE7 /* main.cpp in Sources */,
+				193301B1257D9A37009FEFE7 /* roster.cpp in Sources */,
+				193301AD257D9A13009FEFE7 /* student.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +273,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1933018F257D9844009FEFE7 /* Build configuration list for PBXProject "S and C application" */ = {
+		1933018F257D9844009FEFE7 /* Build configuration list for PBXProject "S and P application" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19330199257D9844009FEFE7 /* Debug */,
@@ -268,7 +282,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1933019B257D9844009FEFE7 /* Build configuration list for PBXNativeTarget "S and C application" */ = {
+		1933019B257D9844009FEFE7 /* Build configuration list for PBXNativeTarget "S and P application" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1933019C257D9844009FEFE7 /* Debug */,
